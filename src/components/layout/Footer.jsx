@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className={styles.brand}>
                         <div className={styles.logo}>
                             <GraduationCap size={24} />
-                            <span>Yenepoya ERP</span>
+                            <span>IIBS ERP</span>
                         </div>
                         <h3 className={styles.footerLogo}>
                             IIBS <span style={{ color: 'var(--yen-green)' }}>ERP</span>
