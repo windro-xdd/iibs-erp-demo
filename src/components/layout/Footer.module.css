@@ -82,7 +82,7 @@
 }
 
 .demo {
-    background: rgba(46, 125, 50, 0.1);
+    background: rgba(59, 130, 246, 0.1);
     color: var(--yen-green);
     padding: var(--space-1) var(--space-3);
     border-radius: var(--radius-full);

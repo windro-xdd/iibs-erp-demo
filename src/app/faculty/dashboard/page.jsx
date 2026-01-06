@@ -281,7 +281,7 @@ const FacultyDashboardContent = () => {
                                     Attendance - {selectedCourse?.name || courses[0]?.name || 'Select Course'}
 
                                 </h2>
-                                <span className={styles.badge} style={{ background: 'rgba(46, 125, 50, 0.1)', color: 'var(--yen-green)' }}>
+                                <span className={styles.badge} style={{ background: 'rgba(59, 130, 246, 0.1)', color: 'var(--yen-green)' }}>
                                     {currentBatch?.name}
                                 </span>
                             </div>
@@ -435,7 +435,7 @@ const FacultyDashboardContent = () => {
 
                             <div className={styles.statsGrid} style={{ marginBottom: 'var(--space-6)' }}>
                                 <div className={styles.statCard}>
-                                    <div className={styles.statIcon} style={{ background: 'rgba(46, 125, 50, 0.1)', color: 'var(--yen-green)' }}>
+                                    <div className={styles.statIcon} style={{ background: 'rgba(59, 130, 246, 0.1)', color: 'var(--yen-green)' }}>
                                         <Users size={24} />
                                     </div>
                                     <div>
@@ -444,7 +444,7 @@ const FacultyDashboardContent = () => {
                                     </div>
                                 </div>
                                 <div className={styles.statCard}>
-                                    <div className={styles.statIcon} style={{ background: 'rgba(21, 101, 192, 0.1)', color: 'var(--yen-blue)' }}>
+                                    <div className={styles.statIcon} style={{ background: 'rgba(59, 130, 246, 0.1)', color: 'var(--yen-blue)' }}>
                                         <FileText size={24} />
                                     </div>
                                     <div>
@@ -475,7 +475,7 @@ const FacultyDashboardContent = () => {
                                                     <td className={styles.bold}>{student.name}</td>
                                                     <td>
                                                         <span className={`${styles.badge}`} style={{
-                                                            background: avg >= 80 ? 'rgba(46, 125, 50, 0.1)' : avg >= 60 ? 'rgba(201, 162, 39, 0.1)' : 'rgba(220, 38, 38, 0.1)',
+                                                            background: avg >= 80 ? 'rgba(59, 130, 246, 0.1)' : avg >= 60 ? 'rgba(245, 158, 11, 0.1)' : 'rgba(220, 38, 38, 0.1)',
                                                             color: avg >= 80 ? 'var(--yen-green)' : avg >= 60 ? 'var(--yen-gold)' : '#DC2626'
                                                         }}>
                                                             {avg >= 80 ? 'Excellent' : avg >= 60 ? 'Good' : 'Needs Attention'}

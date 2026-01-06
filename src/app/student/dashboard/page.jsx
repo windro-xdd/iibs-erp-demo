@@ -54,7 +54,7 @@ const StudentDashboardContent = () => {
         name: 'Dr. Sarah Smith',
         designation: 'Associate Professor',
         department: 'Computer Science',
-        email: 'sarah.smith@yen.edu.in',
+        email: 'sarah.smith@iibs.edu.in',
         phone: '+91 9876543210',
         officeHours: 'Mon, Wed: 2-4 PM'
     };
@@ -84,7 +84,7 @@ const StudentDashboardContent = () => {
 
             setStudent({
                 name: 'Alex Johnson',
-                id: 'YEN2401',
+                id: 'IIBS2401',
                 department: 'Computer Science',
                 semester: '6th',
                 attendance: 87,
@@ -329,7 +329,7 @@ const StudentDashboardContent = () => {
                                             <td>
                                                 <span className={`${styles.badge}`} style={{
                                                     background: a.status === 'graded' ? 'rgba(46, 125, 50, 0.1)' :
-                                                        a.status === 'submitted' ? 'rgba(21, 101, 192, 0.1)' :
+                                                        a.status === 'submitted' ? 'rgba(59, 130, 246, 0.1)' :
                                                             'rgba(201, 162, 39, 0.1)',
                                                     color: a.status === 'graded' ? 'var(--yen-green)' :
                                                         a.status === 'submitted' ? 'var(--yen-blue)' :
@@ -369,7 +369,7 @@ const StudentDashboardContent = () => {
                         <h2 className={styles.cardTitle}>Library Status</h2>
                         <div className={styles.statsGrid} style={{ marginBottom: 'var(--space-6)' }}>
                             <div className={styles.statCard}>
-                                <div className={styles.statIcon} style={{ background: 'rgba(21, 101, 192, 0.1)', color: 'var(--yen-blue)' }}>
+                                <div className={styles.statIcon} style={{ background: 'rgba(59, 130, 246, 0.1)', color: 'var(--yen-blue)' }}>
                                     <Book size={24} />
                                 </div>
                                 <div>

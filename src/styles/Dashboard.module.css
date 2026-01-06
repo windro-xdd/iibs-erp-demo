@@ -1,5 +1,5 @@
 /* ===========================================
-   DASHBOARD STYLES - Yenepoya ERP
+   DASHBOARD STYLES - IIBS ERP
    Premium, Apple-inspired minimal design
    =========================================== */
 
@@ -387,7 +387,7 @@
 }
 
 .badge-faculty {
-    background: rgba(21, 101, 192, 0.1);
+    background: rgba(59, 130, 246, 0.1);
     color: var(--yen-blue);
 }
 

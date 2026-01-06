@@ -103,7 +103,7 @@
 
 .input:focus {
     border-color: var(--yen-green);
-    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.1);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .submitBtn {

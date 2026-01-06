@@ -93,7 +93,7 @@ const NavbarContent = () => {
             <div className={styles.container}>
                 <Link href="/" className={styles.logo}>
                     <GraduationCap size={28} className={styles.logoIcon} />
-                    <span>Yenepoya <span style={{ color: 'var(--yen-green)' }}>ERP</span></span>
+                    <span>IIBS <span style={{ color: 'var(--yen-green)' }}>ERP</span></span>
                 </Link>
 
                 {/* Desktop Nav */}

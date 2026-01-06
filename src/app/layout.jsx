@@ -1,8 +1,8 @@
 import '../index.css';
 
 export const metadata = {
-    title: 'University ERP',
-    description: 'University Management System',
+    title: 'IIBS ERP Portal',
+    description: 'International Institute of Business Studies ERP',
 };
 
 export default function RootLayout({ children }) {

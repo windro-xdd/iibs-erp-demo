@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  /* Yenepoya Brand Colors */
-  --yen-green: #2E7D32;
-  --yen-green-light: #4CAF50;
-  --yen-green-dark: #1B5E20;
-  --yen-gold: #C9A227;
-  --yen-blue: #1565C0;
+  /* IIBS Brand Colors */
+  --iibs-blue: #0071BD;
+  --iibs-blue-light: #52a8e6;
+  --iibs-blue-dark: #005a9e;
+  --iibs-gold: #C9A227;
 
   /* Semantic Colors */
-  --primary: var(--yen-green);
-  --primary-light: var(--yen-green-light);
-  --primary-dark: var(--yen-green-dark);
-  --accent: var(--yen-gold);
+  --primary: var(--iibs-blue);
+  --primary-light: var(--iibs-blue-light);
+  --primary-dark: var(--iibs-blue-dark);
+  --accent: var(--iibs-gold);
+
+  /* Legacy Yenepoya refs (mapped to new scheme) */
+  --yen-green: var(--iibs-blue);
+  --yen-green-light: var(--iibs-blue-light);
+  --yen-green-dark: var(--iibs-blue-dark);
+  --yen-gold: var(--iibs-gold);
 
   /* Neutral Palette (Apple-inspired) */
   --bg-primary: #FAFAFA;

@@ -168,13 +168,13 @@ const FacultyAttendancePanel = () => {
                             {/* Debug Helper */}
                             <div style={{
                                 padding: '8px',
-                                background: 'rgba(201, 162, 39, 0.1)',
+                                background: 'rgba(245, 158, 11, 0.1)',
                                 color: 'var(--yen-gold)',
                                 fontSize: '0.75rem',
                                 borderRadius: '8px',
                                 wordBreak: 'break-all',
                                 fontFamily: 'monospace',
-                                border: '1px solid rgba(201, 162, 39, 0.2)'
+                                border: '1px solid rgba(245, 158, 11, 0.2)'
                             }}>
                                 <strong>DEBUG:</strong> {JSON.stringify({ sid: session.id, t: qrToken })}
                             </div>

@@ -96,7 +96,7 @@ const StudentAttendanceScanner = () => {
                         animate={{ scale: 1, opacity: 1 }}
                         className={styles.successState}
                     >
-                        <div style={{ width: 80, height: 80, background: 'rgba(46, 125, 50, 0.1)', color: 'var(--yen-green)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem' }}>
+                        <div style={{ width: 80, height: 80, background: 'rgba(59, 130, 246, 0.1)', color: 'var(--yen-green)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem' }}>
                             <CheckCircle size={40} />
                         </div>
                         <h3 className={styles.title} style={{ justifyContent: 'center' }}>Success!</h3>

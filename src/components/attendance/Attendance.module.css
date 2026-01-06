@@ -44,7 +44,7 @@
 
 .infoBox {
     margin-top: var(--space-4);
-    background: rgba(21, 101, 192, 0.08);
+    background: rgba(59, 130, 246, 0.08);
     color: var(--yen-blue);
     padding: var(--space-4);
     border-radius: var(--radius-md);

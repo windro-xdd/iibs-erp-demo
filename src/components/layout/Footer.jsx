@@ -13,9 +13,9 @@ const Footer = () => {
                             <GraduationCap size={24} />
                             <span>Yenepoya ERP</span>
                         </div>
-                        <p className={styles.tagline}>
-                            Empowering academic excellence through technology.
-                        </p>
+                        <h3 className={styles.footerLogo}>
+                            IIBS <span style={{ color: 'var(--yen-green)' }}>ERP</span>
+                        </h3>
                     </div>
 
                     <div className={styles.links}>

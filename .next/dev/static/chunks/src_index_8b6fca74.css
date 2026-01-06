@@ -1,15 +1,18 @@
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap";
 /* [project]/src/index.css [app-client] (css) */
 :root {
-  --yen-green: #2e7d32;
-  --yen-green-light: #4caf50;
-  --yen-green-dark: #1b5e20;
-  --yen-gold: #c9a227;
-  --yen-blue: #1565c0;
-  --primary: var(--yen-green);
-  --primary-light: var(--yen-green-light);
-  --primary-dark: var(--yen-green-dark);
-  --accent: var(--yen-gold);
+  --iibs-blue: #0071bd;
+  --iibs-blue-light: #52a8e6;
+  --iibs-blue-dark: #005a9e;
+  --iibs-gold: #c9a227;
+  --primary: var(--iibs-blue);
+  --primary-light: var(--iibs-blue-light);
+  --primary-dark: var(--iibs-blue-dark);
+  --accent: var(--iibs-gold);
+  --yen-green: var(--iibs-blue);
+  --yen-green-light: var(--iibs-blue-light);
+  --yen-green-dark: var(--iibs-blue-dark);
+  --yen-gold: var(--iibs-gold);
   --bg-primary: #fafafa;
   --bg-secondary: #fff;
   --bg-tertiary: #f5f5f7;

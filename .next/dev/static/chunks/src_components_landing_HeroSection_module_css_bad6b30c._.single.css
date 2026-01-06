@@ -13,7 +13,7 @@
 .HeroSection-module__xogimq__section:before {
   content: "";
   pointer-events: none;
-  background: radial-gradient(circle at 20% 20%, #2e7d3208 0%, #0000 50%), radial-gradient(circle at 80% 80%, #1565c008 0%, #0000 50%);
+  background: radial-gradient(circle at 20% 20%, #2e7d3208 0%, #0000 50%), radial-gradient(circle at 80% 80%, #3b82f608 0%, #0000 50%);
   position: absolute;
   inset: 0;
 }

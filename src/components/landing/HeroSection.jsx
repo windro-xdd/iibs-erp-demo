@@ -37,19 +37,18 @@ const HeroSection = () => {
     ];
 
     return (
-        <section className={styles.section}>
-            <div className="container">
+        <section className={styles.heroWrapper} id="home">
+            <div className={styles.container}>
                 <motion.div
-                    className={styles.heroContent}
-                    variants={containerVariants}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true }}
+                    className={styles.content}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
                 >
-                    <motion.div variants={itemVariants} className={styles.badge}>
-                        <Sparkles size={16} />
-                        Yenepoya University ERP
-                    </motion.div>
+                    <span className={styles.badge}>Next-Gen Campus Management</span>
+                    <h1 className={styles.title}>
+                        IIBS <span className={styles.highlight}>ERP System</span>
+                    </h1>
 
                     <motion.h1 variants={itemVariants} className={styles.title}>
                         One Platform for<br />
